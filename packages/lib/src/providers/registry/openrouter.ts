@@ -17,7 +17,7 @@ const OPENROUTER_API_URL = `${OPENROUTER_BASE_URL}/chat/completions`;
 // web-search plugin (vs the Exa fallback) and produced the best brand-info
 // recall + cheapest cost in our compare-onboarding runs. Other families that
 // support native search per the docs: Anthropic, Perplexity, xAI.
-const DEFAULT_RESEARCH_MODEL = "openai/gpt-5-mini";
+const DEFAULT_RESEARCH_MODEL = "z-ai/glm-5.2";
 
 function openrouterHeaders(): Record<string, string> {
 	return {
